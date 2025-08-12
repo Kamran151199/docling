@@ -335,7 +335,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -403,7 +402,6 @@ tags
 
 
 ### Visual Studio Code ###
-.vscode/
 
 ### VirtualEnv ###
 # Virtualenv
@@ -417,7 +415,6 @@ pyvenv.cfg
 pip-selfcheck.json
 
 ### VisualStudioCode ###
-.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -439,3 +436,5 @@ pip-selfcheck.json
 # Docs
 # docs/**/*.png
 # docs/**/*.svg
+config.bat
+node_modules
